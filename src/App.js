@@ -1,5 +1,6 @@
 import React,{ useState } from "react";
 import { Chat } from "./chat";
+import './App.css'
 
 const App = () => {
     const [message, setMessasge] = useState('');
