@@ -1,9 +1,7 @@
-import { formToJSON } from "axios";
 import React,{ useState } from "react";
-import { divide } from "react-native-reanimated";
 import { Chat } from "./chat";
 
-export const App = () => {
+const App = () => {
     const [message, setMessasge] = useState('');
     const [answer, setAnswer] = useState('');
 
@@ -37,3 +35,5 @@ export const App = () => {
         </div>
     )
 }
+
+export default App;
