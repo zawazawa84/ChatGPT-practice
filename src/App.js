@@ -25,7 +25,7 @@ const App = () => {
                     value={message}
                     onChange={handleMessageChange}
                 />
-                <button type="submit">質問する</button>
+                <button type="submit">質問する!</button>
             </form>
             { answer && (
                 <>
